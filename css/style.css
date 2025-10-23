@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2C1A4A;
+  font-family: "Inter", sans-serif;
+}
+
+/* NAVBAR */
+li, a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  background-color: #ff8A00;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logotipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.navlinks li a:hover {
+  color: #6090d7;
+}
+
+.iskola {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Space Grotesk", sans-serif;
+  margin-right: 60px;
+}
+
+/* HOME / CURSOS */
+.banner {
+  background-image: url(WhatsApp\ Image\ 2025-10-15\ at\ 11.15.20.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 805px;
+  min-height: 320px;
+
+}
+
+/* Seção Cursos */
+.course {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  height: 600px;
+  margin-top: 200px;
+}
+
+.titulo_curs {
+  color: chocolate;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.courses-curso {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.cartao, .course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.cartao:hover, .course-card:hover {
+  transform: translateY(-5px);
+}
+
+.cartao img, .course-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  
+}
+
+.course-info {
+  padding: 1rem;
+}
+
+.course-titulo {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre, .btn, .bnt {
+  display: inline-block;
+  background-color: #0066ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sobre:hover, .btn:hover, .bnt:hover {
+  background-color: #004ecb;
+}
+/*historia*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #000537;
+}
+.paragrafo1{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+}
+.paragrafo2{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.section-timeline{
+    padding:  50px 20px;
+    
+    
+}
+.section-timeline .timeline{
+    position: relative;
+    margin: 0  auto;
+    max-width: 1440px;
+    padding: 100px ;
+}
+
+.section-timeline h1{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+.section-timeline .timeline::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc(100% - 100px);
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.section-timeline .timeline .row .event{
+    position: relative;
+    padding: 24px;
+    background: #ff8A00;
+    width: calc(50% - 30px);
+    color: #fff;
+    box-shadow: 0 20px 20px rgba(8, 0, 0, 0.3);
+}
+
+.section-timeline .timeline .row{
+    display: flex;
+}
+
+
+.section-timeline .timeline .row {
+    display: flex;
+}
+
+.section-timeline .timeline .row.left{
+    justify-content: flex-start;
+    margin-top: 100px;
+
+}
+
+.section-timeline .timeline .row.right{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.section-timeline .timeline .row .event::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.section-timeline .timeline .row.left .event::before{
+    right: -40px;
+}
+.section-timeline .timeline .row.right .event::before{
+    left: -40px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item{
+    height: 250px;
+    width: 450px;
+    list-style: none;
+    background-color: #ff8A00;
+    margin-top: 40px;
+   
+}
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.depos_reform{
+    margin-top: 500px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+
+.container2{  margin-top: 40px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.item2{
+    
+    height: 250px;
+    width: 450px;
+    list-style: none;
+    background-color: #ff8A00;
+    
+}
+
+.depois{
+    margin-top: 300px;
+}
+
+/* maycol */
+
+.maycol{
+    margin-top: 100vh;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0;
+    font-family: arial,impact;
+}
+
+
+/*h1{
+    color: white;
+    background-color: rgb(84, 4, 159);
+    margin: 60px;
+    padding: 40px;
+    box-shadow: orange 5px 10px 10px 0px;
+    display: flex;
+    border-radius: 25px;*/
+
+.img01{
+    height: 250px;
+    margin: 70px;
+    display: flex;
+    width: 250px;
+    
+}
+
+footer{
+    padding: 20px;
+    background-color: orange;
+    color: rgb(11, 5, 45);
+    height: 150px;
+}
+.pai{
+    display: flex;
+    background-color: rgb(245, 164, 2);
+
+    gap: 40px;
+    height: 100px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-esquerdo{
+    /*Nada pois não sei*/
+    width: 350px;
+    height: 70px;
+    background-color: rgb(245, 164, 2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 25px;
+    
+}
+
+.footer-esquerdo a{
+    display: block;
+    margin-left: 20px;
+    align-items: flex-end;
+    color: rgb(5, 5, 75);
+     text-decoration: none;
+    font-weight: bold;
+}
+.footer-esquerdo a:hover{
+    color: blue;
+}
+
+.img02{
+    margin-right: 10px;
+    width: 120px;
+    height: 100px;
+}
+.footer-direito{
+    margin-left:25px ;
+    text-decoration: none;
+    padding-left: 20px;
+    border-left: 3px solid rgba(3, 3, 3, 0.666); /*Isso é uma linha vertical aqui*/
+    
+}
+
+.footer-direito a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    font-weight: bold;
+
+}
+
+.footer-direito a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.p01{
+    color: rgb(2, 2, 148);
+    margin-right: 10px;
+    
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.logo_insta{
+    width: 50px;
+    height: 50px;
+    transition: tranform o.3s ease;
+    background-color: orange;
+}
+.logo_insta:hover{
+    transform: scale(1.2);
+}
