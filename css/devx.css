@@ -96,43 +96,46 @@ main{
 
 footer{
     padding: 20px;
-    background-color:  rgb(255, 145, 0); /*rodapé das páginas*/
+    height: 180px;
+    background-color:  chocolate; /*rodapé das páginas*/
     color: rgb(11, 5, 45);
 }
-.pai{
+.pai-footer{
+
     display: flex;
-    background-color:  rgb(255, 145, 0); /*div pai do rodapé*/
+    justify-content: space-between; /* distribui igualmente */
 
-    gap: 10px;
-    height: 70px;
+    align-items: flex-start;        /* alinha no topo */max-width: 1200px;
 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    gap: 40px;  
+  
+    background-color: chocolate;
 }
 
 .footer-esquerdo{
     /*Nada pois não sei*/
-    width: 350px;
+    width: 250px;
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;  /*conteúdo que está a esquerda do traço*/
+    justify-content: flex-start;
+    flex-direction: row;  /*conteúdo que está a esquerda do traço*/
+
+    padding-right: 180px;
     
     margin-right: 25px;
+    margin-bottom: 30px;
+    background-color: chocolate;
     
 }
+.footer-esquerdo p{
 
-.footer-esquerdo a{
-    display: block;
-    margin-left: 20px;
-    align-items: flex-end;
-    color: rgb(5, 5, 75); /*links que estão a esquerda*/
-     text-decoration: none;
+    color: rgb(255, 253, 253); /*nosso professor aqui*/
     font-weight: bold;
-}
-.footer-esquerdo a:hover{
-    color: blue;
+    margin-left: 20px;
+    margin-top: 5px;
+
 }
 
 .img02{
@@ -140,35 +143,59 @@ footer{
     width: 80px;
     height: 75px;
 }
-.footer-direito{
+.footer-com-links{
     margin-left:25px ;
     text-decoration: none; /*lado direito do rodapé*/
-    padding-left: 20px;
+    padding-right: 180px;
 
     border-left: 3px solid rgba(3, 3, 3, 0.666); /*Isso é o traço que divide os lados aqui*/
     
 }
 
-.footer-direito a{
-    text-decoration: none;
-    margin-left: 10px;
-    color: rgb(255, 255, 255); /*links do lado direito*/
-    height: 25px;
+.footer-com-links{
+    margin-top: 8px;
     font-weight: bold;
-
-}
-
-.footer-direito a:hover{
-    text-decoration: underline;
-    color: blue;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
     
 }
 
-.p01{
-    color: rgb(2, 2, 148); /* jose bronzeado sobrinho aqui*/
-    margin-right: 10px;
+.footer-com-links a{
+    text-decoration: none;
+    color: rgb(184, 179, 175);
+}
+.footer-com-links a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer-com-links{
+    border-left: 3px solid rgba(3, 3, 3, 0.666);
+    margin-left: 30px;
+    padding-right: 180px;
+    height: 100px;
+}
+.footer-links{
+
+    margin-top: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
+
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(174, 161, 152);
+}
+.footer-links a:hover{
+    text-decoration: none;
+    color: blue;
+}
+h5{
+    margin-left: 10px;
 }
 p{
-    color: rgb(157, 49, 49); /*nosso professor aqui*/
-    margin-left: 20px;
+    align-items: center;
 }
