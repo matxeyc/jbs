@@ -1,0 +1,110 @@
+body {
+  margin: 0; /* remove as margens padrão do navegador */
+  font-family: Arial, sans-serif; /* define a fonte principal da página */
+  background-color: rgb(230, 113, 4); /* cor de fundo laranja */
+}
+
+/* ======== BARRA DE NAVEGAÇÃO ======== */
+nav {
+  display: flex; /* usa o flexbox para alinhar os elementos lado a lado */
+  justify-content: space-between; /* logo à esquerda e links à direita */
+  align-items: center; /* centraliza verticalmente os itens dentro da nav */
+  padding: 10px 20px; /* espaço interno (topo, laterais e base) */
+  background-color: #100244; /* define a cor de fundo da navbar (roxo escuro) */
+}
+
+/* ======== LISTA DE LINKS DA NAVBAR ======== */
+.nav-links {
+  list-style: none; /* remove os pontos padrão das listas */
+  display: flex; /* coloca os itens lado a lado */
+  gap: 20px; /* distância entre cada link */
+  margin: 0; /* remove margens externas */
+  padding: 0; /* remove espaçamento interno */
+}
+
+/* ======== ESTILO DOS LINKS ======== */
+.nav-links a {
+  color: rgb(230, 113, 4); /* cor laranja para os links */
+  text-decoration: none; /* remove o sublinhado */
+  font-weight: bold; /* deixa o texto em negrito */
+}
+
+/* ======== EFEITO AO PASSAR O MOUSE (HOVER) ======== */
+.nav-links a:hover {
+  color: #fffdfb; /* muda a cor para branco ao passar o mouse */
+}
+
+/* ======== TÍTULO PRINCIPAL ======== */
+.titulo {
+  text-align: center; /* centraliza o título */
+  margin-top: 20px; /* adiciona espaço acima do título */
+  font-size: 36px; /* aumenta o tamanho da fonte */
+}
+
+/* ======== PRIMEIRA SEÇÃO (TEXTO + IMAGEM) ======== */
+.container {
+  display: flex; /* organiza o texto e a imagem lado a lado */
+  justify-content: space-between; /* separa os dois lados */
+  align-items: center; /* centraliza verticalmente */
+  gap: 120px; /* define o espaço entre o texto e a imagem */
+  max-width: 900px; /* largura máxima da seção */
+  margin: 80px auto; /* centraliza horizontalmente e adiciona espaço em cima e embaixo */
+  background: #fdfdff; /* cor de fundo branca levemente azulada */
+  padding: 40px; /* espaçamento interno */
+  border-radius: 12px; /* bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra suave para dar destaque */
+}
+
+/* ======== TEXTO DA PRIMEIRA SEÇÃO ======== */
+.texto {
+  flex: 1; /* ocupa o espaço restante da seção */
+}
+
+.texto h2 {
+  color: #000000; /* cor roxa para o subtítulo */
+  margin-bottom: 15px; /* espaço abaixo do título */
+  font-size: 24px; /* tamanho do subtítulo */
+}
+
+.texto p {
+  line-height: 1.6; /* altura da linha para facilitar leitura */
+  font-size: 16px; /* tamanho padrão do texto */
+  text-align: justify; /* alinha o texto dos dois lados */
+}
+
+/* ======== IMAGEM DA PRIMEIRA SEÇÃO ======== */
+.imagem {
+  width: 320px; /* largura fixa da imagem */
+  height: auto; /* ajusta a altura proporcionalmente */
+  object-fit: cover; /* corta a imagem mantendo proporção */
+  border-radius: 8px; /* bordas levemente arredondadas */
+}
+
+/* ======== SEGUNDA SEÇÃO (INVERTIDA) ======== */
+.container-2 {
+  display: flex; /* organiza o texto e imagem lado a lado */
+  justify-content: space-between; /* separa os dois elementos */
+  align-items: center; /* centraliza verticalmente */
+  gap: 120px; /* espaço entre texto e imagem */
+  max-width: 900px; /* largura máxima */
+  margin: 80px auto; /* centraliza a seção e adiciona espaçamento vertical */
+  background: #fff; /* fundo branco */
+  padding: 40px; /* espaçamento interno */
+  border-radius: 12px; /* bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+/* ======== TEXTO DA SEGUNDA SEÇÃO (INVERTIDO) ======== */
+.texto-2 {
+  order: 2; /* faz o texto aparecer à direita da imagem */
+  flex: 1; /* ocupa o espaço restante */
+}
+
+/* ======== IMAGEM DA SEGUNDA SEÇÃO (INVERTIDA) ======== */
+.imagem-2 {
+  order: 1; /* faz a imagem aparecer à esquerda */
+  width: 320px; /* largura da imagem */
+  height: auto; /* altura proporcional */
+  object-fit: cover; /* corta a imagem sem distorcer */
+  border-radius: 8px; /* bordas arredondadas */
+}
