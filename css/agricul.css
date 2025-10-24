@@ -1,7 +1,7 @@
 body {
   margin: 0; /* remove as margens padrão do navegador */
   font-family: Arial, sans-serif; /* define a fonte principal da página */
-  background-color: rgb(230, 113, 4); /* cor de fundo laranja */
+  background-color: #000537; /* cor de fundo azul*/
 }
 
 /* ======== BARRA DE NAVEGAÇÃO ======== */
@@ -38,7 +38,9 @@ nav {
 .titulo {
   text-align: center; /* centraliza o título */
   margin-top: 20px; /* adiciona espaço acima do título */
-  font-size: 36px; /* aumenta o tamanho da fonte */
+  font-size: 40px; /* aumenta o tamanho da fonte */
+  color: chocolate;
+
 }
 
 /* ======== PRIMEIRA SEÇÃO (TEXTO + IMAGEM) ======== */
@@ -61,7 +63,7 @@ nav {
 }
 
 .texto h2 {
-  color: #000000; /* cor roxa para o subtítulo */
+  color: chocolate; /* cor roxa para o subtítulo */
   margin-bottom: 15px; /* espaço abaixo do título */
   font-size: 24px; /* tamanho do subtítulo */
 }
@@ -70,6 +72,7 @@ nav {
   line-height: 1.6; /* altura da linha para facilitar leitura */
   font-size: 16px; /* tamanho padrão do texto */
   text-align: justify; /* alinha o texto dos dois lados */
+  color: #000537;
 }
 
 /* ======== IMAGEM DA PRIMEIRA SEÇÃO ======== */
@@ -93,11 +96,17 @@ nav {
   border-radius: 12px; /* bordas arredondadas */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra suave */
 }
-
+.h2-cor{
+  color: chocolate;
+}
 /* ======== TEXTO DA SEGUNDA SEÇÃO (INVERTIDO) ======== */
 .texto-2 {
   order: 2; /* faz o texto aparecer à direita da imagem */
   flex: 1; /* ocupa o espaço restante */
+  line-height: 1.6; /* altura da linha para facilitar leitura */
+  font-size: 16px; /* tamanho padrão do texto */
+  text-align: justify; /* alinha o texto dos dois lados */
+  color: #000537;
 }
 
 /* ======== IMAGEM DA SEGUNDA SEÇÃO (INVERTIDA) ======== */
