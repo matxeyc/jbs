@@ -56,7 +56,7 @@ header {
 
 /* HOME / CURSOS */
 .banner {
-  background-image: url(WhatsApp\ Image\ 2025-10-15\ at\ 11.15.20.jpeg);
+  background-image: url("../img/img-banner__home.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
