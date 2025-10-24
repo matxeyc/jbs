@@ -4,39 +4,56 @@ body {
   margin: 0; /* remove as margens padrão do navegador */
   font-family: 'Barlow Condensed'; /* define a fonte principal da página */
   font-size: 20px;
-  background-color: rgb(230, 113, 4); /* cor de fundo laranja */
+  
 
   background-color: #000537; /* cor de fundo azul*/
 }
 
 /* ======== BARRA DE NAVEGAÇÃO ======== */
-nav {
-  display: flex; /* usa o flexbox para alinhar os elementos lado a lado */
-  justify-content: space-between; /* logo à esquerda e links à direita */
-  align-items: center; /* centraliza verticalmente os itens dentro da nav */
-  padding: 10px 20px; /* espaço interno (topo, laterais e base) */
-  background-color: #100244; /* define a cor de fundo da navbar (roxo escuro) */
+li, a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
 }
 
-/* ======== LISTA DE LINKS DA NAVBAR ======== */
-.nav-links {
-  list-style: none; /* remove os pontos padrão das listas */
-  display: flex; /* coloca os itens lado a lado */
-  gap: 20px; /* distância entre cada link */
-  margin: 0; /* remove margens externas */
-  padding: 0; /* remove espaçamento interno */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  background-color: #ff8A00;
+  position: static;
+  top: 0;
+  z-index: 10;
+  height: 100px;
 }
 
-/* ======== ESTILO DOS LINKS ======== */
-.nav-links a {
-  color: rgb(230, 113, 4); /* cor laranja para os links */
-  text-decoration: none; /* remove o sublinhado */
-  font-weight: bold; /* deixa o texto em negrito */
+.logotipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
 }
 
-/* ======== EFEITO AO PASSAR O MOUSE (HOVER) ======== */
-.nav-links a:hover {
-  color: #fffdfb; /* muda a cor para branco ao passar o mouse */
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.navlinks li a:hover {
+  color: #6090d7;
+}
+
+.iskola {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Space Grotesk", sans-serif;
+  margin-right: 60px;
 }
 
 /* ======== TÍTULO PRINCIPAL ======== */
