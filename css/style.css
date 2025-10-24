@@ -21,9 +21,10 @@ header {
   align-items: center;
   padding: 10px 5px;
   background-color: #ff8A00;
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 10;
+  height: 100px;
 }
 
 .logotipo {
@@ -60,8 +61,9 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 805px;
-  min-height: 320px;
+  /* height: 805px; */
+  height: calc(100vh - 100px );
+  /* min-height: 320px; */
 
 }
 
@@ -71,20 +73,22 @@ header {
   margin: 0 auto;
   padding: 2rem;
   height: 600px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
-.titulo_curs {
+.titulo_curso {
   color: chocolate;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 1.5rem;
+  
 }
 
 .courses-curso {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
+  padding-top: 50px;
 }
 
 .cartao, .course-card {
