@@ -418,3 +418,48 @@ p{
 .logo_insta:hover{
     transform: scale(1.2);
 }
+
+
+/*  ESTILO SECTION CONTATO */
+
+.section_contato{
+    background-color:#fff;
+    margin-top: 100px;
+    height: 700px;
+}
+.titulo_comunic{
+    padding-top: 50px;
+}
+
+.container_contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.container_contato h2{
+    color: #000;
+    padding: 30px;
+    margin-top: 100px;
+    margin-top: 150px;
+}
+
+.maps{
+    float: left;
+    margin-top: 100px;          
+}
+
+.meios_comunic{    
+    align-self: center;
+}
+
+.meios_comunic ul{
+    list-style: none;    
+}
+.meios_comunic ul li {    
+    padding: 10px;    
+}
+
+.meios_comunic a {    
+    color: #000;    
+}
