@@ -2,11 +2,9 @@
 
 body {
   margin: 0; /* remove as margens padrão do navegador */
-  font-family: 'Barlow Condensed'; /* define a fonte principal da página */
-  font-size: 20px;
-  
-
-  background-color: #000537; /* cor de fundo azul*/
+  font-family:'Barlow condensed'; /* define a fonte principal da página */
+  font-size: 25px;
+  background-color: #000537; /* cor de fundo laranja */
 }
 
 /* ======== BARRA DE NAVEGAÇÃO ======== */
@@ -54,6 +52,28 @@ header {
   font-weight: bold;
   font-family: "Space Grotesk", sans-serif;
   margin-right: 60px;
+}
+
+
+/* ======== LISTA DE LINKS DA NAVBAR ======== */
+.nav-links {
+  list-style: none; /* remove os pontos padrão das listas */
+  display: flex; /* coloca os itens lado a lado */
+  gap: 20px; /* distância entre cada link */
+  margin: 0; /* remove margens externas */
+  padding: 0; /* remove espaçamento interno */
+}
+
+/* ======== ESTILO DOS LINKS ======== */
+.nav-links a {
+  color: rgb(230, 113, 4); /* cor laranja para os links */
+  text-decoration: none; /* remove o sublinhado */
+  font-weight: bold; /* deixa o texto em negrito */
+}
+
+/* ======== EFEITO AO PASSAR O MOUSE (HOVER) ======== */
+.nav-links a:hover {
+  color: #fffdfb; /* muda a cor para branco ao passar o mouse */
 }
 
 /* ======== TÍTULO PRINCIPAL ======== */
