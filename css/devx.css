@@ -133,35 +133,33 @@ footer{
     /*Nada pois não sei*/
     width: 250px;
     height: 70px;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;  /*conteúdo que está a esquerda do traço*/
 
     padding-right: 180px;
+    
     margin-right: 25px;
     margin-bottom: 30px;
     background-color: chocolate;
     
 }
-.footer-esquerdo p{ /*nosso professor aqui*/
+.footer-esquerdo p{
 
-    color: rgb(255, 253, 253); 
+    color: rgb(255, 253, 253); /*nosso professor aqui*/
     font-weight: bold;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 5px;
 
 }
 
 .img02{
-     /*logo\imagem que está a esquerda*/
-    margin-right: 10px;
-    margin-top: 50px;
+    margin-right: 10px; /*logo\imagem que está a esquerda*/
     width: 80px;
     height: 75px;
 }
-.footer-com-links-MP{ /*footer esquerdo informações*/
+.footer-com-links{
     margin-left:25px ;
     text-decoration: none; /*lado direito do rodapé*/
     padding-right: 180px;
@@ -170,7 +168,7 @@ footer{
     
 }
 
-.footer-com-links-MP{ /*geral MP*/
+.footer-com-links{
     margin-top: 8px;
     font-weight: bold;
     text-decoration: none;
@@ -179,15 +177,22 @@ footer{
     
 }
 
-.footer-com-links-MP{ /*geral MP final*/
+.footer-com-links a{
+    text-decoration: none;
+    color: rgb(184, 179, 175);
+}
+.footer-com-links a:hover{
+    text-decoration: underline;
+    color: blue;
+}
 
+.footer-com-links{
     border-left: 3px solid rgba(3, 3, 3, 0.666);
     margin-left: 30px;
     padding-right: 180px;
     height: 100px;
 }
-
-.footer-links{ /*links de MP geral*/
+.footer-links{
 
     margin-top: 8px;
     font-weight: bold;
@@ -196,8 +201,7 @@ footer{
     margin-left: 25px;
 
 }
-.footer-links a{ /*mapa do site transição*/
-
+.footer-links a{
     text-decoration: none;
     color: rgb(174, 161, 152);
 }
@@ -205,66 +209,9 @@ footer{
     text-decoration: none;
     color: blue;
 }
-
-.footer-com-links-RS{ /*footer esquerdo informações*/
-    margin-left:25px ;
-    text-decoration: none; /*lado direito do rodapé*/
-    padding-right: 180px;
-
-    border-left: 3px solid rgba(3, 3, 3, 0.666); /*Isso é o traço que divide os lados aqui*/
-    
-}
-
-.footer-com-links-RS{ /*geral MP*/
-    margin-top: 8px;
-    font-weight: bold;
-    text-decoration: none;
-    list-style: none;
-    margin-left: 25px;
-    
-}
-
-.footer-com-links-RS{ /*geral MP final*/
-
-    border-left: 3px solid rgba(3, 3, 3, 0.666);
-    margin-left: 30px;
-    padding-right: 180px;
-    height: 100px;
-}
-
-.footer-links-RS{ /*links de MP geral*/
-
-    margin-top: 8px;
-    font-weight: bold;
-    text-decoration: none;
-    list-style: none;
-    margin-left: 30px;
-
-}
-
-.jbscopy{ /*copyright do footer*/
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 15px;
-    padding: 10px;
-
-    font-size: 20px;
-
-    background-color: rgb(24, 21, 21);
-}
-
 h5{
     margin-left: 10px;
 }
-
-h6{
-    color: white;
-}
-
 p{
     align-items: center;
 }
-
