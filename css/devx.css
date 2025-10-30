@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 5px;
-  background-color: #ff8A00;
+  background-color: chocolate;
   position: static;
   top: 0;
   z-index: 10;
@@ -57,7 +57,8 @@ header {
 }
 
 main{
-   background-color: #0062b8; /*aqui onde coloca o conteúdo*/
+  background-color: #000537; /* cor de fundo laranja */
+   /*aqui onde coloca o conteúdo*/
    /* height: 550px; */
 }
 
