@@ -141,19 +141,21 @@ header {
 }.container__dev{
     
     height: 100vh;
-    display: flex;
+    display: flex ;
     flex-direction: row;
     justify-content:center; /*div pai */
     align-items: center;    /*Alinha os cards ao centro da div */
     justify-content:space-around;
-    gap: 20 px;
+    gap: 10 px;
+    
+    
     
     
 }
 
 .dev__card{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color:chocolate;
     border-radius: 8px;
     overflow: hidden;
@@ -162,6 +164,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -187,3 +190,4 @@ header {
     font-weight: bold;
     padding: 10px;
 }
+
