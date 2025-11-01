@@ -343,7 +343,7 @@ h2{
     margin: 0px;
 }
 body{
-    margin: 0;
+    
     font-family: arial,impact;
 }
 
@@ -365,18 +365,20 @@ body{
     
 }
 
+/*rodapé das páginas*/
+
 footer{
     padding: 20px;
-    height: 260px;
-    background-color:  chocolate; /*rodapé das páginas*/
-    color: rgb(11, 5, 45);
+    height: 240px;
+    background-color:  chocolate; 
+    
+    color: #0b052d;
 }
 
 .pai-footer{
 
     display: flex;
     justify-content: space-between; /* distribui igualmente */
-
     align-items: flex-start;     /* alinha no topo */
     
     max-width: 1200px;
@@ -387,7 +389,7 @@ footer{
 }
 .footer-esquerdo{
     /*Nada pois não sei*/
-    width: 250px;
+    width: 120px;
     height: 70px;
 
     display: flex;
@@ -395,7 +397,7 @@ footer{
     justify-content: flex-start;
       /*conteúdo que está a esquerda do traço*/
 
-    padding-right: 180px;
+    padding-right: 100px;
     margin-right: 25px;
     margin-bottom: 30px;
     background-color: chocolate;
@@ -404,56 +406,47 @@ footer{
 
 .footer-esquerdo p{ /*nosso p aqui*/
 
-    color: rgb(255, 253, 253); 
+    color: #ffffff; 
     font-weight: bold;
     margin-left: 20px;
 
-    margin-top: 115px;
-    font-size: 25px;
+    margin-top: 70px;
+    font-size: 20px;
 
 }
 
 .img-logo-footer{
     margin-right: 10px;
-    margin-top:115px;
-    width: 100px;
-    height: 90px;
+    margin-top:70px;
+    width: 120px;
+    height: 100px;
 }
 
-.footer-com-links-MP{ /*footer central informações*/
-    margin-left:25px ;
-    text-decoration: none; /*lado central do rodapé*/
-    padding-right: 180px;
+.footer-com-links-MP{ /*centro do rodapé*/
 
-    border-left: 3px solid rgba(3, 3, 3, 0.666); /*Isso é o traço que divide os lados aqui*/
-    
-}
-
-.footer-com-links-MP{ /*geral MP*/
+    margin-left: 60px;
     margin-top: 8px;
+    padding-right: 100px;
+
     font-weight: bold;
-    text-decoration: none;
-    list-style: none;
-    margin-left: 25px;
+    height: 130px;
+    
+    /*Isso é o traço que divide os lados aqui*/
+    border-left: 3px solid #030303aa; 
     
 }
 
-.footer-com-links-MP{ /*geral MP final*/
-
-    border-left: 3px solid rgba(3, 3, 3, 0.666);
-    margin-left: 30px;
-    padding-right: 180px;
-    height: 150px;
-}
 
 .footer-links{ /*links de MP geral*/
 
     font-weight: bold;
+
+    justify-items: center;
     
     text-decoration: none;
     list-style: none;
 
-    margin-left: 25px;
+    margin-left: 40px;
     margin-top: 8px;
 
 }
@@ -461,52 +454,48 @@ footer{
 .footer-links a{ /*mapa do site transição*/
 
     text-decoration: none;
-    color: rgb(174, 161, 152);
+    margin-right: 32px;
+    font-size: 16px;
+    color: #ffffff;
 }
 
 .footer-links a:hover{
-    text-decoration: none;
-    color: blue;
+    text-decoration: underline;
+    color: #0b0b9d;
 }
 
-.footer-com-links-RS{ /*footer direito informações*/
-    margin-left:25px ;
-    text-decoration: none; /*lado direito do rodapé*/
-    margin-right: 180px;
-    
-}
+.footer-com-links-RS{
+    /*footer direito informações*/
 
-.footer-com-links-RS{ /*geral RS*/
-
+    margin-left: 10px;
     margin-top: 8px;
-    font-weight: bold;
-    text-decoration: none;
-    list-style: none;
-    margin-left: 25px;
+
+    padding-right: 140px;
+    
+    height: 130px;
+    
+    border-left: 3px solid #030303aa;
     
 }
 
-.footer-com-links-RS{ /*geral RS final*/
-
-    border-left: 3px solid rgba(3, 3, 3, 0.666);
-    margin-left: 30px;
-    padding-right: 180px;
-    height: 150px;
-}
 
 .footer-links-RS{ /*links de RS geral*/
 
     margin-top: 8px;
-    font-weight: bold;
+    margin-left: 40px;
+
     text-decoration: none;
     list-style: none;
-    margin-left: 30px;
+
+    font-size: 10px;
+    
 }
 
 .img-logo-RS{ /* instagram e whatsapp*/
     display: inline-block;
-    width: 60px;
+    width: 50px;
     height: auto;
+    margin-left: 15px;
     
 }
 
@@ -516,22 +505,32 @@ footer{
     align-items: center;
     justify-content: center;
 
-    margin-top: 25px;
-    padding: 15px;
-    
-    background-color: rgb(24, 21, 21);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px ;
+
+    background-color: #060556;
+}
+
+.h5-MP{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
 }
 
 .h5-RS{
-
-    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 22px;
 }
 
 .h6-Copyr{
 
     color: white;
-    font-size: 20px;
+    font-size: 12px;
 }
+
+/*Fim do Footer*/
 
 .logo_insta{
     width: 50px;
