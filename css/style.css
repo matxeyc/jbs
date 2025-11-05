@@ -122,7 +122,6 @@ header {
   font-size: 3rem;
   margin-bottom: 1.5rem;
   
-  
 }
 
 .courses-curso {
@@ -380,6 +379,8 @@ body{
     
 }
 
+
+
 .dev__card{
     width: 250px;
     height: 250px;
@@ -435,6 +436,82 @@ body{
    height: 20px;
     width: 20px;
 }
+
+
+
+
+/* seção programas */
+
+.container__programas{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; /*div pai */
+    align-items: center;    /*Alinha os cards ao centro da div */
+    justify-content:space-around;
+    
+    
+}
+
+
+
+.programas__card{
+    width: 300px;
+    height: 250px;
+    background-color:#fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.programas__card--img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.programas__card--img img{
+    height: 300px;
+    width: 300px;   
+
+}
+.programas__card--nome{
+    display: flex;
+    /* justify-content: center; nome de cada dev */
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.programas__card--link{
+    display: flex;
+    /* justify-content: center; link de cada instagram em geral */
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.programas__card--link:hover{
+    text-decoration: underline;
+    color: rgb(255, 149, 0); /*decoração dos link de instagram*/
+}
+.programas__card--link img{
+   height: 20px;
+    width: 20px;
+}
+
+
+
+
+
 /*rodapé das páginas*/
 
 footer{
