@@ -336,11 +336,9 @@ h2{
     margin-top: 300px;
 }
 
-/* maycol */
 
-.maycol{
-    margin-top: 100vh;
-}
+
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -352,14 +350,6 @@ body{
 }
 
 
-/*h1{
-    color: white;
-    background-color: rgb(84, 4, 159);
-    margin: 60px;
-    padding: 40px;
-    box-shadow: orange 5px 10px 10px 0px;
-    display: flex;
-    border-radius: 25px;*/
 
 .img01{
     height: 250px;
@@ -457,6 +447,7 @@ body{
     justify-content:space-around;
     
     
+    
 }
 
 
@@ -472,6 +463,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     
 }
 
