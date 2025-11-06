@@ -103,7 +103,11 @@ header {
 .texto {
   flex: 1; /* ocupa o espaço restante da seção */
 }
-
+.texto  li{
+  color: #000537;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
 .texto h2 {
   color: chocolate; /* cor roxa para o subtítulo */
   margin-bottom: 15px; /* espaço abaixo do título */
@@ -149,6 +153,11 @@ header {
   font-size: 16px; /* tamanho padrão do texto */
   text-align: justify; /* alinha o texto dos dois lados */
   color: #000537;
+}
+
+.texto-2  li{
+  color: #000537;
+  font-size: 16px;
 }
 
 /* ======== IMAGEM DA SEGUNDA SEÇÃO (INVERTIDA) ======== */
@@ -197,5 +206,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+
 
 
