@@ -373,13 +373,18 @@ body{
 
 
 .container__docentes{
+    padding: 50px;
     
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content:center; /*div pai */
     align-items: center;    /*Alinha os cards ao centro da div */
     justify-content:space-around;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 20px;
+    
     
     
 }
@@ -387,6 +392,7 @@ body{
 
 
 .dev__card{
+
     width: 250px;
     height: 250px;
     background-color:#fff;
@@ -397,11 +403,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     
 }
 .dev__card h3{
     font-size: 12px;
     color: #0062b8;
+    margin: 0;
 }
 
 .dev__card--img{
@@ -413,8 +421,8 @@ body{
 }
 
 .dev__card--img img{
-    height: 100px;
-    width: 100px;   
+    height: 150px;
+    width: 120px;   
 
 }
 .dev__card--nome{

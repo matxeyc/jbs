@@ -179,10 +179,7 @@ header {
     justify-content:center; /*div pai */
     align-items: center;    /*Alinha os cards ao centro da div */
     justify-content:space-around;
-    gap: 10 px;
-    
-    
-    
+    gap: 10 px; 
     
 }
 
