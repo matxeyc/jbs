@@ -514,7 +514,6 @@ body{
 footer{
     padding: 20px;
     height: 240px;
-
     background-color:chocolate;
     color:#0b052d;
 }
@@ -531,6 +530,8 @@ footer{
   
     background-color: chocolate;
 }
+
+
 .footer-esquerdo{
     /*Nada pois não sei*/
     width: 120px;
@@ -542,7 +543,7 @@ footer{
       /*conteúdo que está a esquerda do traço*/
 
     padding-right: 100px;
-    margin-right: 25px;
+    margin-right: 80px;
     margin-bottom: 30px;
     background-color: chocolate;
     
@@ -553,7 +554,7 @@ footer{
     color: #ffffff; 
     font-weight: bold;
     margin-left: 20px;
-
+    
     margin-top: 70px;
     font-size: 20px;
 
@@ -571,6 +572,8 @@ footer{
     margin-left: 60px;
     margin-top: 8px;
     padding-right: 100px;
+    
+    
 
     font-weight: bold;
     height: 130px;
@@ -730,3 +733,19 @@ footer{
 }
 
 
+@media (max-width: 500px) {
+
+    footer{
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    }
+
+    .pai-footer{
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+}
