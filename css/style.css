@@ -47,7 +47,7 @@ body {
 .courses-curso {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: 5rem;
   padding-top: 100px;
 }
 
@@ -56,11 +56,11 @@ body {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 
 .cartao:hover, .course-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-40px);
 }
 
 .cartao img, .course-card img {
@@ -96,6 +96,8 @@ body {
 
 
 /* seção historia*/
+
+
 
 
 
