@@ -10,58 +10,6 @@ body{
     font-family: 'Barlow Condensed';
     font-size: 25px;
 }
-li, a {
-  font-size: 24px;
-  color: #fff;
-  text-decoration: none;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 5px;
-  background-color: chocolate;
-  position: static;
-  top: 0;
-  z-index: 10;
-  height: 100px;
-}
-
-.logotipo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 60px;
-}
-
-.navlinks {
-  list-style: none;
-}
-
-.navlinks li {
-  display: inline-block;
-  padding: 0 40px;
-}
-
-.navlinks li a:hover {
-  color: #6090d7;
-}
-
-.iskola {
-  font-size: 20px;
-  color: #fff;
-  font-weight: bold;
-  font-family: "Space Grotesk", sans-serif;
-  margin-right: 60px;
-}
-
-main{
-  background-color: #000537; /* cor de fundo laranja */
-   /*aqui onde coloca o conteúdo*/
-   /* height: 550px; */
-}
-
 
 .fonte{
     display: flex;
