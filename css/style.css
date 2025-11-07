@@ -661,19 +661,34 @@ footer{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     footer{
     flex-direction: column;
     height: auto;
-    align-items: flex-start;
+    align-items: center;
+    padding: 0;
     }
 
     .pai-footer{
-        height: 100vh;
+        height: auto;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         
+    }
+
+    .footer-com-links-MP{
+        margin-right: 23px;
+    }
+
+    .footer-com-links-RS{
+        padding-right: 80px;
+        margin-right: 10px;
+    }
+
+    .footer-com-links-RS > .footer-links-RS{
+        margin-top: 5px;
+        margin-left: 20px;
     }
 }
