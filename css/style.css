@@ -14,6 +14,16 @@ body {
   font-family: 'Barlow Condensed';
 }
 
+
+
+h2{
+    color: chocolate;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+    
+}
+
 /* HOME / CURSOS */
 .banner {
   background-image: url("../img/img-banner__home.jpeg");
@@ -94,26 +104,22 @@ body {
   background-color: #004ecb;
 }
 
+                            /* REPONSIVIDADE SEÇÃO CURSOS */
+@media(max-width:500px){
+
+        .courses-curso{
+            flex-direction: column;
+            height:auto
+        }
+
+        .course{
+            height:auto
+        }
+}
+
+
 
 /* seção historia*/
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-    
-
-
-    
 
 .paragrafo1{
     text-align: center;
@@ -220,7 +226,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
-
+                            /* RESPONSIVIDADE IMAGENS ANTES DA REFORMA  */
 @media(max-width:600px){
 
 .container{flex-direction: column;height:auto}
@@ -239,13 +245,7 @@ body {
 margin-top: 100px;
 
 }
-h2{
-    color: chocolate;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 10px;
-    
-}
+
 
 .depos_reform{
     margin-top: 400px;
@@ -271,32 +271,11 @@ h2{
     margin-top: 40px;
     
 }
-@media(max-width:600px){ 
-
-.container2{flex-direction: column;
-    height: auto;
-    }
- 
-}
+                     
 
 .depois{
     margin-top: 300px;
 }
-
-
-
-
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0px;
-}
-body{
-    
-    font-family: arial,impact;
-}
-
-
 
 .img01{
     height: 250px;
@@ -305,6 +284,97 @@ body{
     width: 250px;
     
 }
+
+
+/* REPONSIVIDADE IMAGENS DEPOIS REFORMA */
+
+@media(max-width:500px){ 
+
+.container2{
+    flex-direction: column;
+    height: auto;
+    }
+
+ 
+}
+                                    /* SEÇÃO CONTATO E LOCALIZAÇÃO */
+
+.section_contato{
+
+    background-color: #fff;
+    height: 100%vh;
+}
+.container_contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      
+}
+
+.container_contato h2{
+    color: #000;
+    padding: 30px;
+    margin-top: 100px;
+    margin-top: 150px;
+}
+
+.maps{
+    float: left;
+    margin-top: 100px;          
+}
+
+.meios_comunic{    
+    align-self: center;
+}
+
+.meios_comunic ul{
+    list-style: none;    
+}
+.meios_comunic ul li {    
+    padding: 10px;    
+}
+
+.meios_comunic a {    
+    color: #000;    
+}
+
+                        /* REPONSIVIDADE DA SEÇÃO CONTATO E LOCALIZAÇÃO */
+
+@media(max-width:500px){ 
+
+    .section_contato{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .container_contato{
+       
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        
+    }
+
+    .maps iframe{
+        height: 250px;
+        width: 250px;
+        
+    }
+
+    .meios_comunic {
+        height: 250px;
+        width: 250px;
+    }
+    
+    .meios_comunic h2 {
+       font-size: 20px;
+      
+       margin: 0;
+    }
+ 
+}
+
 
                                 /* CARDS DA SECTION PROFESSORES */
 
@@ -320,9 +390,7 @@ body{
     justify-content:space-around;
     flex-wrap: wrap;
     row-gap: 50px;
-    column-gap: 20px;
-    
-    
+    column-gap: 20px;     
     
 }
 
@@ -399,13 +467,10 @@ body{
     flex-direction: row;
     justify-content:center; /*div pai */
     align-items: center;    /*Alinha os cards ao centro da div */
-    justify-content:space-around;
-    
+    justify-content:space-around;   
     
     
 }
-
-
 
 .programas__card{
     width: 300px;
@@ -460,9 +525,19 @@ body{
     width: 20px;
 }
 
+                            /* REPONSIVIDADE PROGRAMAS */
 
+@media(max-width:500px){ 
 
+.container__programas{
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+ 
+}
 
+}
 
 /*rodapé das páginas*/
 
@@ -654,38 +729,8 @@ footer{
     padding-top: 50px;
 }
 
-.container_contato{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;    
-}
 
-.container_contato h2{
-    color: #000;
-    padding: 30px;
-    margin-top: 100px;
-    margin-top: 150px;
-}
 
-.maps{
-    float: left;
-    margin-top: 100px;          
-}
-
-.meios_comunic{    
-    align-self: center;
-}
-
-.meios_comunic ul{
-    list-style: none;    
-}
-.meios_comunic ul li {    
-    padding: 10px;    
-}
-
-.meios_comunic a {    
-    color: #000;    
-}
 
 
 @media (max-width: 600px) {
