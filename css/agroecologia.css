@@ -91,7 +91,11 @@ body {
   height: auto; /* altura proporcional */
   object-fit: cover; /* corta a imagem sem distorcer */
   border-radius: 8px; /* bordas arredondadas */
-}.container__dev{
+
+}
+/* CARDS DE INFORMAÇÕES SOBRE O CURSO */
+
+.container__cards{
     
     height: 100vh;
     display: flex ;
@@ -99,14 +103,11 @@ body {
     justify-content:center; /*div pai */
     align-items: center;    /*Alinha os cards ao centro da div */
     justify-content:space-around;
-    gap: 10 px;
-    
-    
-    
+    gap: 10 px; 
     
 }
 
-.dev__card{
+.card{
     width: 250px;
     height: 250px;
     background-color:chocolate;
@@ -116,31 +117,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    
-}
-
-
-.dev__card--img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
+    align-items: center; 
     
 }
-
-.dev__card--img img{
-    height: 100px;
-    width: 100px;   
-
+.card--conteudo{
+  color: #fdfdff;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.dev__card--nome{
-    display: flex;
-    /* justify-content: center; nome de cada dev */
-    font-size: 18px;
-    font-family: Verdana, sans-serif;
-    font-weight: bold;
-    padding: 10px;
-}
+
 
