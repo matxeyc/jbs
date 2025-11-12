@@ -569,7 +569,7 @@ footer{
 
 
 .footer-esquerdo{
-    /*Nada pois não sei*/
+    /*Lado esquerdo do footer*/
     width: 120px;
     height: 70px;
 
@@ -585,7 +585,7 @@ footer{
     
 }
 
-.footer-esquerdo p{ /*nosso p aqui*/
+.footer-esquerdo p{ /*Paragrafo do lado esqurdo*/
 
     color: #ffffff; 
     font-weight: bold;
