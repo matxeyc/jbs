@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+.container {
+  display: flex; /* organiza o texto e a imagem lado a lado */
+  justify-content: space-between; /* separa os dois lados */
+  align-items: center; /* centraliza verticalmente */
+  gap: 120px; /* define o espaço entre o texto e a imagem */
+  max-width: 900px; /* largura máxima da seção */
+  margin: 80px auto; /* centraliza horizontalmente e adiciona espaço em cima e embaixo */
+  background: #fdfdff; /* cor de fundo branca levemente azulada */
+  padding: 40px; /* espaçamento interno */
+  border-radius: 12px; /* bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra suave para dar destaque */
+}
