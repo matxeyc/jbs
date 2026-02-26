@@ -103,7 +103,19 @@ body {
   object-fit: cover; /* corta a imagem sem distorcer */
   border-radius: 8px; /* bordas arredondadas */
 }
-
+.container-3{
+  display: flex;
+  background-color: #fdfdff;
+  align-items: center;
+  height: 600px;
+  border-radius: 20px;
+  max-width: 900px;
+  
+margin: 0% auto;
+}
+.texto{
+  
+}
 
 /* CARDS DE INFORMAÇÕES SOBRE O CURSO */
 .container__cards{
