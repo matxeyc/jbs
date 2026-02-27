@@ -57,7 +57,7 @@ h2{
 .courses-curso {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 5rem;
+  gap: 7rem;
   padding-top: 100px;
 }
 
@@ -70,7 +70,7 @@ h2{
 }
 
 .cartao:hover, .course-card:hover {
-  transform: translateY(-40px);
+  transform: translateY(-80px);
 }
 
 .cartao img, .course-card img {
@@ -178,6 +178,7 @@ h2{
     width: calc(50% - 30px);
     color: #fff;
     box-shadow: 0 20px 20px rgba(8, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .section-timeline .timeline .row{
